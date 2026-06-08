@@ -1,6 +1,6 @@
 /**
  * Lógica matemática de las calculadoras y simuladores interactivos
- * para cada una de las 5 áreas del Hospital Jardines.
+ * para cada una de las 5 áreas del Hospital Angeles del Carmen.
  */
 
 const CALCULATORS = {
@@ -546,9 +546,14 @@ const CALCULATORS = {
             <div class="calc-input-group">
               <label class="calc-label">Horario Preferido</label>
               <select id="demo-time" class="calc-input calc-select" required>
-                <option value="09:00 AM">Mañana (09:00 AM)</option>
-                <option value="12:00 PM" selected>Mediodía (12:00 PM)</option>
-                <option value="04:00 PM">Tarde (04:00 PM)</option>
+                <option value="09:30 AM">09:30 AM</option>
+                <option value="10:00 AM">10:00 AM</option>
+                <option value="10:30 AM">10:30 AM</option>
+                <option value="11:00 AM">11:00 AM</option>
+                <option value="11:30 AM">11:30 AM</option>
+                <option value="12:00 PM" selected>12:00 PM</option>
+                <option value="12:30 PM">12:30 PM</option>
+                <option value="13:00">13:00</option>
               </select>
             </div>
             
@@ -583,7 +588,7 @@ const CALCULATORS = {
         const formattedDate = `${dateParts[2]}/${dateParts[1]}/${dateParts[0]}`;
 
         // Redirección a WhatsApp
-        const textMessage = `¡Hola! Me gustaría agendar una demostración de productos Swipe en el Hospital Jardines para el área de *${areaSelected}*.\n\n📅 *Fecha propuesta:* ${formattedDate}\n⏰ *Horario:* ${timeVal}`;
+        const textMessage = `¡Hola! Me gustaría agendar una demostración de productos Swipe en el Hospital Angeles del Carmen para el área de *${areaSelected}*.\n\n📅 *Fecha propuesta:* ${formattedDate}\n⏰ *Horario:* ${timeVal}`;
         const whatsappUrl = `https://wa.me/523321918862?text=${encodeURIComponent(textMessage)}`;
         window.open(whatsappUrl, '_blank');
 

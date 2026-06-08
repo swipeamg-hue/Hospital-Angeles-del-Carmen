@@ -1,6 +1,6 @@
-# Presentación Interactiva SPA — Hospital Jardines
+# Presentación Interactiva SPA — Hospital Angeles del Carmen
 
-Esta es una aplicación web interactiva de una sola página (Single Page Application - SPA) de diseño premium, adaptada para ofrecer las soluciones químicas profesionales de **Swipe** a las 5 áreas clave del **Hospital Jardines**.
+Esta es una aplicación web interactiva de una sola página (Single Page Application - SPA) de diseño premium, adaptada para ofrecer las soluciones químicas profesionales de **Swipe** a las 5 áreas clave del **Hospital Angeles del Carmen**.
 
 Este proyecto ha sido configurado como una plantilla modular y escalable para futuras presentaciones de soluciones químicas Swipe en el sector hospitalario y clínico.
 
@@ -35,7 +35,7 @@ Este proyecto ha sido configurado como una plantilla modular y escalable para fu
      - *Dietología*: Despliega los protocolos específicos H paso a paso para desengrase o desinfección.
      - *Sanitarios*: Muestra la proporción exacta en mililitros de Brite/Swipol y agua limpia según el recipiente.
 
-5. **Sistema de Cotización Personalizado ("Cotizador Hospital Jardines")**:
+5. **Sistema de Cotización Personalizado ("Cotizador Hospital Angeles del Carmen")**:
    - Los tomadores de decisiones pueden agregar productos a una cotización de forma instantánea.
    - Una barra flotante en la parte inferior de la pantalla aparece con un contador dinámico.
    - Abre un modal con el desglose de productos y permite rellenar un formulario para procesar la cotización e interactuar con el departamento de compras.
@@ -47,7 +47,7 @@ Este proyecto ha sido configurado como una plantilla modular y escalable para fu
 El proyecto está diseñado bajo una filosofía de **cero dependencias (Vanilla Stack)**, garantizando tiempos de carga instantáneos de menos de 1 segundo:
 
 ```
-Hospital-Jardines/
+Hospital-Angeles-del-Carmen/
 ├── index.html              # Estructura principal y plantillas de modales
 ├── css/
 │   ├── main.css            # Estilos globales, variables de color y fuentes
@@ -67,5 +67,5 @@ Hospital-Jardines/
 
 Dado que es un proyecto puramente estático de alto rendimiento, se publica utilizando **GitHub Pages**:
 
-- URL del proyecto: `https://swipeamg-hue.github.io/hospital-jardines/`
+- URL del proyecto: `https://swipeamg-hue.github.io/Hospital-Angeles-del-Carmen/`
 - Para publicar cambios, simplemente realiza un commit y push a la rama principal (`main` o `master`).
